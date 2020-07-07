@@ -1,12 +1,6 @@
 .navigation {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-}
-
-.menu {
-  width: 100%;
-  display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -68,7 +62,16 @@ label {
     transition-delay: 0.5;
   }
 
-  .menu a {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .navigation a {
     display: flex;
     text-align: center;
     padding: 20px 5px;
@@ -78,7 +81,7 @@ label {
     transition: all 0.5s;
   }
 
-  .menu a:hover {
+  .navigation a:hover {
     background-color: #fff;
     color: #000;
   }
@@ -87,11 +90,11 @@ label {
     display: none;
   }
 
-  .navigation label {
+  header label {
     display: initial;
   }
 
-  .navigation label {
+  header label {
     position: absolute;
     z-index: 2;
   }
