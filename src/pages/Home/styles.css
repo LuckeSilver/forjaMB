@@ -106,17 +106,17 @@ form {
   justify-content: space-evenly;
 }
 
-.atributes {
+.attributes {
   width: 40%;
   margin-left: 4%;
 }
 
-.atributeName {
+.attributeName {
   color: #fed40b;
   font-size: 14px;
 }
 
-.atributeName span {
+.attributeName span {
   color: #fff;
 }
 

@@ -3,11 +3,13 @@ import React, { useState, useEffect } from "react";
 import Menu from "../../components/Menu";
 import Anao from "../../assets/anao.png";
 import Elfo from "../../assets/elfo.png";
+import Faen from "../../assets/faen.png";
 import Fauno from "../../assets/fauno.png";
 import Racas from "../../assets/raca.png";
 import Aesir from "../../assets/aesir.png";
 import Asterio from "../../assets/asterio.png";
 import Asteria from "../../assets/asteria.png";
+import Centauro from "../../assets/centauro02.png";
 import Input from "../../components/Input";
 
 import raceDB from "../../db/raceDB";
@@ -95,7 +97,7 @@ function Home() {
           "imgContainer"
         ).innerHTML = `<img src=${Asteria} alt="Astéria" />`;
         break;
-      case "Elfo":
+      case "Centauro":
         document.getElementById("force").innerHTML = `${raceDB[5].for}`;
         document.getElementById("agi").innerHTML = `${raceDB[5].agi}`;
         document.getElementById("int").innerHTML = `${raceDB[5].int}`;
@@ -111,9 +113,9 @@ function Home() {
         ).innerHTML = `${raceDB[5].raceDescription}`;
         document.getElementById(
           "imgContainer"
-        ).innerHTML = `<img src=${Elfo} alt="Elfo" />`;
+        ).innerHTML = `<img src=${Centauro} alt="Centauro" />`;
         break;
-      case "Fauno":
+      case "Elfo":
         document.getElementById("force").innerHTML = `${raceDB[6].for}`;
         document.getElementById("agi").innerHTML = `${raceDB[6].agi}`;
         document.getElementById("int").innerHTML = `${raceDB[6].int}`;
@@ -127,6 +129,42 @@ function Home() {
         document.getElementById(
           "description"
         ).innerHTML = `${raceDB[6].raceDescription}`;
+        document.getElementById(
+          "imgContainer"
+        ).innerHTML = `<img src=${Elfo} alt="Elfo" />`;
+        break;
+      case "Faen":
+        document.getElementById("force").innerHTML = `${raceDB[7].for}`;
+        document.getElementById("agi").innerHTML = `${raceDB[7].agi}`;
+        document.getElementById("int").innerHTML = `${raceDB[7].int}`;
+        document.getElementById("vont").innerHTML = `${raceDB[7].von}`;
+        document.getElementById(
+          "classesCommon"
+        ).innerHTML = `${raceDB[7].commonClasses}`;
+        document.getElementById(
+          "autoHabil"
+        ).innerHTML = `${raceDB[7].autoHabil}`;
+        document.getElementById(
+          "description"
+        ).innerHTML = `${raceDB[7].raceDescription}`;
+        document.getElementById(
+          "imgContainer"
+        ).innerHTML = `<img src=${Faen} alt="Faen" />`;
+        break;
+      case "Fauno":
+        document.getElementById("force").innerHTML = `${raceDB[7].for}`;
+        document.getElementById("agi").innerHTML = `${raceDB[7].agi}`;
+        document.getElementById("int").innerHTML = `${raceDB[7].int}`;
+        document.getElementById("vont").innerHTML = `${raceDB[7].von}`;
+        document.getElementById(
+          "classesCommon"
+        ).innerHTML = `${raceDB[7].commonClasses}`;
+        document.getElementById(
+          "autoHabil"
+        ).innerHTML = `${raceDB[7].autoHabil}`;
+        document.getElementById(
+          "description"
+        ).innerHTML = `${raceDB[7].raceDescription}`;
         document.getElementById(
           "imgContainer"
         ).innerHTML = `<img src=${Fauno} alt="Fauno" />`;
@@ -189,17 +227,17 @@ function Home() {
               <h3>Atributos Iniciais</h3> <h3>Classes Comuns</h3>
             </div>
             <div className="flex">
-              <div className="atributes">
-                <h3 className="atributeName">
+              <div className="attributes">
+                <h3 className="attributeName">
                   Força : <span id="force"></span>
                 </h3>
-                <h3 className="atributeName">
+                <h3 className="attributeName">
                   Agilidade : <span id="agi"></span>
                 </h3>
-                <h3 className="atributeName">
+                <h3 className="attributeName">
                   Inteligência : <span id="int"></span>
                 </h3>
-                <h3 className="atributeName">
+                <h3 className="attributeName">
                   Vontade : <span id="vont"></span>
                 </h3>
               </div>
