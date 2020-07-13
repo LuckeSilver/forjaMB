@@ -30,7 +30,7 @@ label {
   height: 4px;
   border: none;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: #fed40b;
   width: 0;
   transition: width 0.5s;
 }
@@ -66,9 +66,7 @@ label {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 100%;
     width: 100%;
-    margin-top: 50px;
   }
 
   .navigation a {
