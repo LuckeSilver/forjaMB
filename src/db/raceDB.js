@@ -190,7 +190,7 @@ const raceDB = [
     commonClasses: "Bardo, Druida, Espadachim, Patrulheiro e Xamã.",
     autoHabil: "Pernas Vulpinas",
     raceDescription:
-      "Os Tailox são humanoides de pequena estatura (entre 1,4 e 1,6 metros) e de constituição esbelta (pesando entre 40 e 50 quilos). A cabeça apresenta um focinho curto e fino e orelhas grandes e seus são digitígrados. Possuem uma cauda pequena, coberta por uma pelagem mais farta do que no resto do corpo.",
+      "Os Tailox são humanoides de pequena estatura (entre 1,4 e 1,6 metros) e de constituição esbelta (pesando entre 40 e 50 quilos). A cabeça apresenta um focinho curto e fino e orelhas grandes e seus pés são digitígrados. Possuem uma cauda pequena, coberta por uma pelagem mais farta do que no resto do corpo.",
   },
 ];
 

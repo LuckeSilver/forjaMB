@@ -5,6 +5,13 @@ import Anao from "../../assets/anao.png";
 import Elfo from "../../assets/elfo.png";
 import Faen from "../../assets/faen.png";
 import Fauno from "../../assets/fauno.png";
+import Fira from "../../assets/fira.png";
+import Humano from "../../assets/humano.png";
+import Juban from "../../assets/juban02.png";
+import Levent from "../../assets/levent.png";
+import Mahok from "../../assets/mahok.png";
+import Metadilio from "../../assets/metadilio.png";
+import Tailox from "../../assets/tailox.png";
 import Racas from "../../assets/raca.png";
 import Aesir from "../../assets/aesir.png";
 import Asterio from "../../assets/asterio.png";
@@ -152,22 +159,148 @@ function Home() {
         ).innerHTML = `<img src=${Faen} alt="Faen" />`;
         break;
       case "Fauno":
-        document.getElementById("force").innerHTML = `${raceDB[7].for}`;
-        document.getElementById("agi").innerHTML = `${raceDB[7].agi}`;
-        document.getElementById("int").innerHTML = `${raceDB[7].int}`;
-        document.getElementById("vont").innerHTML = `${raceDB[7].von}`;
+        document.getElementById("force").innerHTML = `${raceDB[8].for}`;
+        document.getElementById("agi").innerHTML = `${raceDB[8].agi}`;
+        document.getElementById("int").innerHTML = `${raceDB[8].int}`;
+        document.getElementById("vont").innerHTML = `${raceDB[8].von}`;
         document.getElementById(
           "classesCommon"
-        ).innerHTML = `${raceDB[7].commonClasses}`;
+        ).innerHTML = `${raceDB[8].commonClasses}`;
         document.getElementById(
           "autoHabil"
-        ).innerHTML = `${raceDB[7].autoHabil}`;
+        ).innerHTML = `${raceDB[8].autoHabil}`;
         document.getElementById(
           "description"
-        ).innerHTML = `${raceDB[7].raceDescription}`;
+        ).innerHTML = `${raceDB[8].raceDescription}`;
         document.getElementById(
           "imgContainer"
         ).innerHTML = `<img src=${Fauno} alt="Fauno" />`;
+        break;
+      case "Fira":
+        document.getElementById("force").innerHTML = `${raceDB[9].for}`;
+        document.getElementById("agi").innerHTML = `${raceDB[9].agi}`;
+        document.getElementById("int").innerHTML = `${raceDB[9].int}`;
+        document.getElementById("vont").innerHTML = `${raceDB[9].von}`;
+        document.getElementById(
+          "classesCommon"
+        ).innerHTML = `${raceDB[9].commonClasses}`;
+        document.getElementById(
+          "autoHabil"
+        ).innerHTML = `${raceDB[9].autoHabil}`;
+        document.getElementById(
+          "description"
+        ).innerHTML = `${raceDB[9].raceDescription}`;
+        document.getElementById(
+          "imgContainer"
+        ).innerHTML = `<img src=${Fira} alt="Fira" />`;
+        break;
+      case "Humano":
+        document.getElementById("force").innerHTML = `${raceDB[10].for}`;
+        document.getElementById("agi").innerHTML = `${raceDB[10].agi}`;
+        document.getElementById("int").innerHTML = `${raceDB[10].int}`;
+        document.getElementById("vont").innerHTML = `${raceDB[10].von}`;
+        document.getElementById(
+          "classesCommon"
+        ).innerHTML = `${raceDB[10].commonClasses}`;
+        document.getElementById(
+          "autoHabil"
+        ).innerHTML = `${raceDB[10].autoHabil}`;
+        document.getElementById(
+          "description"
+        ).innerHTML = `${raceDB[10].raceDescription}`;
+        document.getElementById(
+          "imgContainer"
+        ).innerHTML = `<img src=${Humano} alt="Humano" />`;
+        break;
+      case "Juban":
+        document.getElementById("force").innerHTML = `${raceDB[11].for}`;
+        document.getElementById("agi").innerHTML = `${raceDB[11].agi}`;
+        document.getElementById("int").innerHTML = `${raceDB[11].int}`;
+        document.getElementById("vont").innerHTML = `${raceDB[11].von}`;
+        document.getElementById(
+          "classesCommon"
+        ).innerHTML = `${raceDB[11].commonClasses}`;
+        document.getElementById(
+          "autoHabil"
+        ).innerHTML = `${raceDB[11].autoHabil}`;
+        document.getElementById(
+          "description"
+        ).innerHTML = `${raceDB[11].raceDescription}`;
+        document.getElementById(
+          "imgContainer"
+        ).innerHTML = `<img src=${Juban} alt="Juban" />`;
+        break;
+      case "Levent":
+        document.getElementById("force").innerHTML = `${raceDB[12].for}`;
+        document.getElementById("agi").innerHTML = `${raceDB[12].agi}`;
+        document.getElementById("int").innerHTML = `${raceDB[12].int}`;
+        document.getElementById("vont").innerHTML = `${raceDB[12].von}`;
+        document.getElementById(
+          "classesCommon"
+        ).innerHTML = `${raceDB[12].commonClasses}`;
+        document.getElementById(
+          "autoHabil"
+        ).innerHTML = `${raceDB[12].autoHabil}`;
+        document.getElementById(
+          "description"
+        ).innerHTML = `${raceDB[12].raceDescription}`;
+        document.getElementById(
+          "imgContainer"
+        ).innerHTML = `<img src=${Levent} alt="Levent" />`;
+        break;
+      case "Mahok":
+        document.getElementById("force").innerHTML = `${raceDB[13].for}`;
+        document.getElementById("agi").innerHTML = `${raceDB[13].agi}`;
+        document.getElementById("int").innerHTML = `${raceDB[13].int}`;
+        document.getElementById("vont").innerHTML = `${raceDB[13].von}`;
+        document.getElementById(
+          "classesCommon"
+        ).innerHTML = `${raceDB[13].commonClasses}`;
+        document.getElementById(
+          "autoHabil"
+        ).innerHTML = `${raceDB[13].autoHabil}`;
+        document.getElementById(
+          "description"
+        ).innerHTML = `${raceDB[13].raceDescription}`;
+        document.getElementById(
+          "imgContainer"
+        ).innerHTML = `<img src=${Mahok} alt="Mahok" />`;
+        break;
+      case "Metadílio":
+        document.getElementById("force").innerHTML = `${raceDB[14].for}`;
+        document.getElementById("agi").innerHTML = `${raceDB[14].agi}`;
+        document.getElementById("int").innerHTML = `${raceDB[14].int}`;
+        document.getElementById("vont").innerHTML = `${raceDB[14].von}`;
+        document.getElementById(
+          "classesCommon"
+        ).innerHTML = `${raceDB[14].commonClasses}`;
+        document.getElementById(
+          "autoHabil"
+        ).innerHTML = `${raceDB[14].autoHabil}`;
+        document.getElementById(
+          "description"
+        ).innerHTML = `${raceDB[14].raceDescription}`;
+        document.getElementById(
+          "imgContainer"
+        ).innerHTML = `<img src=${Metadilio} alt="Metadílio" />`;
+        break;
+      case "Tailox":
+        document.getElementById("force").innerHTML = `${raceDB[15].for}`;
+        document.getElementById("agi").innerHTML = `${raceDB[15].agi}`;
+        document.getElementById("int").innerHTML = `${raceDB[15].int}`;
+        document.getElementById("vont").innerHTML = `${raceDB[15].von}`;
+        document.getElementById(
+          "classesCommon"
+        ).innerHTML = `${raceDB[15].commonClasses}`;
+        document.getElementById(
+          "autoHabil"
+        ).innerHTML = `${raceDB[15].autoHabil}`;
+        document.getElementById(
+          "description"
+        ).innerHTML = `${raceDB[15].raceDescription}`;
+        document.getElementById(
+          "imgContainer"
+        ).innerHTML = `<img src=${Tailox} alt="Tailox" />`;
         break;
       default:
         document.getElementById(
